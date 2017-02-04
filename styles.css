@@ -10,6 +10,7 @@ html {
 pre {
 		float: left;
 		padding-left: 50px;
+		font-size: 300%;
 }
 p {
 		margin: auto;
