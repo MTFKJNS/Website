@@ -1,4 +1,4 @@
-html1 {
+html {
 	width: 100%;
 	height: 100%;	
 	margin: auto;
@@ -10,4 +10,7 @@ html1 {
 pre {
 		float: left;
 		padding-left: 50px;
+}
+p {
+		margin: auto;
 }
