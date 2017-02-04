@@ -1,1 +1,44 @@
-<h1>Hello World !</h1>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Les langages du web</title>
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">	
+	
+</head>
+
+<body>
+	<nav>
+		<ul>
+		 <li><a href="index.php" title="Lien vers accueil">Accueil</a> </li>
+		 <li><a href="html.php" title="Lien vers le HTML5">HTML5</a> </li>
+		 <li><a href="css.php" title="Lien vers CSS3">CSS3</a> </li>
+		 <li><a href="js.php" title="Lien vers JavaScript">JavaScript</a> </li>
+		 <li><a href="php.php" title="Lien vers PHP">PHP</a> </li>
+		 <li><a href="mysql.php" title="Lien vers MySQL">MySQL</a> </li>
+		 <li><a href="trailer.php" title="Lien vers le trailer">Trailer</a> </li>
+		</ul>	
+	
+	</nav>
+	
+	<header>
+		<img src="../img/dessin.svg" alt="Ma bannière" width="100%" height="100%">
+	</header>
+	
+	<?php include("../incl/menu.php"); ?>
+	
+	<section>
+		<article>
+			<h3>Accueil</h3>
+			<p>La programmation web peut prendre différentes formes: de la simple page <i>statique</i> à 
+				la page <b>dynamique</b> avec connexion à une base de données.<br />
+				Nous allons tracer ici un bref aperçu des différentes technologies possibles dans la programmation 
+				côté <em>client</em> ou côté <strong>serveur</strong>.</p>	
+		</article>	
+	</section>
+	
+	<?php include("../incl/pied.php"); ?>
+	
+	<p id="auteur">Réalise par la classe de 5B, gr.1 Saint-Jean Berchmans 2016-2017 &copy</p>
+</body>
+</html>
